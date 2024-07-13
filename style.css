@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Centers contents horizontally */
+    align-items: center;
+    /* Centers contents vertically */
+    height: 100vh;
+    /* Full viewport height */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#gridContainer {
+    display: flex;
+    width: 550px;
+    height: 550px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.my-button {
+    margin-bottom: 20px;
+    /* Add some space between the button and the grid */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
